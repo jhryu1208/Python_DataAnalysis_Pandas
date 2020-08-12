@@ -14,18 +14,16 @@
 
 ## [ 데이터 포맷 이해 ]
 
-- [CSV파일 다루기](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/CSV_Practice.ipynb)
-- [JSON파일 다루기](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/JSON_Practice.ipynb)
-- [XML파일 다루기](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/XML_Practice.ipynb)
+- [<b>CSV파일 다루기</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/CSV_Practice.ipynb)
+- [<b>JSON파일 다루기</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/JSON_Practice.ipynb)
+- [<b>XML파일 다루기</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/XML_Practice.ipynb)
 
 ## [ Pandas 기본 문법 ]
 
-- [Pandas 라이브러리 기본 이해](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Basic.ipynb)
-  - Pandas 라이브러리
+- [<b>Pandas 라이브러리 기본 이해</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Basic.ipynb)
   - Series (CRUD) Create/Read/Update/Delete
       > [ 데이터 시리즈 Create ]
       > pd.Series( value list, index = [index list])
-  - Pandas 데이터 타입
   - Pandas 데이터 타입 변경
       > Series객체.astype('변경타입')
   - Dataframe (CRUD) Create/Read/Update/Delete
@@ -38,7 +36,23 @@
 
 ## [ 탐색적 데이터 분석 ]
 
-- [EDA 기본 패턴 적용을 위한 Pandas 라이브러리 문법 활용](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_EDA.ipynb)
+- [<b>EDA 기본 패턴 적용을 위한 Pandas 라이브러리 문법 활용</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_EDA.ipynb)
+  - EDA
+    >EDA(Exploratory Data Analysis) : 탐색적 데이터 분석
+    >  1. 데이터 출처와 주제에 대해 이해
+    >  2. 데이터의 크기 확인
+    >  3. 데이터 구성 요소(featur)의 속성(특징) 확인
+  - Pandas 라이브러리로 csv 파일 읽기
+    >  doc = pd.read_csv('/파일경로/파일명', encoding = 'utf-8-sig')
+    > 뒤에 (quotechar = '구분자옵션')를 넣어서 구분자가 다른 경우도 읽기 가능하다.
+  - 데이터 일부 확인
+    > head() : 처음 5개(디폴트)의 데이터 확인하기
+    > tail() : 마지막 5개의 데이터 확인하기
+  - 데이터 정보 확인
+    > shape : 데이터의 row,column 사이즈 확인
+    > info() : column별 데이터타입과 실제 데이터 사이즈 확인
+  - 속성간 상관관계
+    > corr(method = 상관계수) : 각 속성간 상관관계 확인
 
 ## [ 데이터 전처리를 위한 Pandas 라이브러리 사용법]
 
