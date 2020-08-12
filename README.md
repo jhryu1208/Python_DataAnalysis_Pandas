@@ -37,7 +37,7 @@
 - [최종 전처리 데이터로 그래프 생성](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Graph.ipynb)
 - [COVID-19 사망자 현황 실제 데이터 전처리 및 시각화](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/COVID19-Death-Accumulation.ipynb)
 
-<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/3285190" data-url="https://flo.uri.sh/visualisation/3285190/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<img src="https://flo.uri.sh/visualisation/3285190/embed">
 
 ### [ Ch 6. 시각화 라이브러리 사용]
 
