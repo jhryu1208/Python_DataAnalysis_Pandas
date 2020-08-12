@@ -12,6 +12,8 @@
   - https://github.com/jhryu1208/Python_DataAnalysis_Pandas/tree/master/Pandas/Brazilian_Ecommerce_EDA/olist_ecommerce_data
 </div>
 
+---------
+
 ## [ 데이터 포맷 이해 ]
 
 - [<b>CSV파일 다루기</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/CSV_Practice.ipynb)
