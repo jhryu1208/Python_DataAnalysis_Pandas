@@ -36,8 +36,7 @@
 - [COVID-19 확진자 현황 실제 데이터 전처리](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Real_Data_Processing.ipynb)
 - [최종 전처리 데이터로 그래프 생성](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Graph.ipynb)
 - [COVID-19 사망자 현황 실제 데이터 전처리 및 시각화](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/COVID19-Death-Accumulation.ipynb)
-
-<img src="https://flo.uri.sh/visualisation/3285190/embed">
+    - ![Uploading COVID19-DEATH.gif…]()
 
 ### [ Ch 6. 시각화 라이브러리 사용]
 
