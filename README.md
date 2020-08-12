@@ -21,6 +21,20 @@
 ## [ Pandas 기본 문법 ]
 
 - [Pandas 라이브러리 기본 이해](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Basic.ipynb)
+  - Pandas 라이브러리
+  - Series (CRUD) Create/Read/Update/Delete
+      > [ 데이터 시리즈 Create ]
+      > pd.Series( value list, index = [index list])
+  - Pandas 데이터 타입
+  - Pandas 데이터 타입 변경
+      > Series객체.astype('변경타입')
+  - Dataframe (CRUD) Create/Read/Update/Delete
+      > [ 데이터 프레임 Create ]
+      > pd.Dataframe( {key : value,...}, index = [index list])
+  - Dataframe에서 특정 행/열/값 가져오기
+      >행 가져오기 : ex) df.loc[2000]
+      >열 가져오기 : ex) df.iloc[0]
+      >value 가져오기 : ex) df.loc[2000]['미국'] or df.['미국'][2000]
 
 ## [ 탐색적 데이터 분석 ]
 
@@ -38,7 +52,7 @@
 
 - [COVID 19 확진자 현황 Chart Race](https://public.flourish.studio/visualisation/3282433/)
     ![COVID19-CONFIMRED](https://user-images.githubusercontent.com/53929665/90008809-e4078980-dcd7-11ea-8bae-7973bafbbbf2.gif)
-    
+
 - [COVID-19 사망자 현황 실제 데이터 전처리 및 시각화](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/COVID19-Death-Accumulation.ipynb)
 - [COVID 19 사망자 현황 Chart Race](https://public.flourish.studio/visualisation/3285190/)
     ![COVID19-DEATH](https://user-images.githubusercontent.com/53929665/90008305-1664b700-dcd7-11ea-83cf-1f52b50ce198.gif)
