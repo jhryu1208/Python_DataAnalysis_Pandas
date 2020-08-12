@@ -14,13 +14,13 @@
 
 ---------
 ## Contents
-- [데이터 포맷 이해](#데이터-포맷-이해)
-- [Pandas 기본 문법](#Pandas-기본-문법)
-- [탐색적 데이터 분석](#탐색적-데이터-분석)
-- [데이터 전처리를 위한 Pandas 라이브러리 사용법](#데이터-전처리를-위한-Pandas-라이브러리-사용법)
-- [COVID-19 현황 분석 및 시각화](#COVID-19-현황-분석-및-시각화)
-- [시각화 라이브러리 사용](#시각화-라이브러리-사용)
-- [Olist (BR) Ecommerce 데이터 분석 및 시각화](#Olist-BR-Ecommerce-데이터-분석-및-시각화)
+- [ 데이터 포맷 이해 ](#데이터-포맷-이해)
+- [ Pandas 기본 문법 ](#Pandas-기본-문법)
+- [ 탐색적 데이터 분석 ](#탐색적-데이터-분석)
+- [ 데이터 전처리를 위한 Pandas 라이브러리 사용법 ](#데이터-전처리를-위한-Pandas-라이브러리-사용법)
+- [ COVID-19 현황 분석 및 시각화 ](#COVID-19-현황-분석-및-시각화)
+- [ 시각화 라이브러리 사용 ](#시각화-라이브러리-사용)
+- [ Olist Brazil Ecommerce 데이터 분석 및 시각화 ](#Olist-BR-Ecommerce-데이터-분석-및-시각화)
 
 -------
 ## [ 데이터 포맷 이해 ]
@@ -133,7 +133,7 @@
 
 ##### [목차로 이동](#contents)
 
-## [ Olist (BR) Ecommerce 데이터 분석 및 시각화]
+## [ Olist Brazil Ecommerce 데이터 분석 및 시각화]
 
 - [Brazilian_Ecommerce_EDA1](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Brazilian_Ecommerce_EDA/BEE1.ipynb)
   - 데이터 사전 준비/이해와 EDA과정 적용
