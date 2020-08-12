@@ -13,13 +13,13 @@
 </div>
 
 ### [ Ch 1. 데이터 포맷 이해 ]
--------
+------
 - [CSV파일 다루기](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/CSV_Practice.ipynb)
 - [JSON파일 다루기](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/JSON_Practice.ipynb)
 - [XML파일 다루기](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/XML_Practice.ipynb)
 
 ### [ Ch 2. Pandas 기본 문법 ]
--------
+------
 - [Pandas 라이브러리 기본 이해](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Basic.ipynb)
 
 ### [ Ch 3. 탐색적 데이터 분석 ]
