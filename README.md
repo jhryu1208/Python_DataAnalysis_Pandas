@@ -35,6 +35,7 @@
 
 - [COVID-19 확진자 현황 실제 데이터 전처리](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Real_Data_Processing.ipynb)
 - [최종 전처리 데이터로 그래프 생성](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Graph.ipynb)
+    - ![COVID19-CONFIMRED](https://user-images.githubusercontent.com/53929665/90008809-e4078980-dcd7-11ea-8bae-7973bafbbbf2.gif)
 - [COVID-19 사망자 현황 실제 데이터 전처리 및 시각화](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/COVID19-Death-Accumulation.ipynb)
     - ![COVID19-DEATH](https://user-images.githubusercontent.com/53929665/90008305-1664b700-dcd7-11ea-83cf-1f52b50ce198.gif)
 
