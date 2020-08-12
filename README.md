@@ -56,8 +56,41 @@
 
 ## [ 데이터 전처리를 위한 Pandas 라이브러리 사용법]
 
-- [Pandas 라이브러리 데이터 가공](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Data_Processing.ipynb)
-- [데이터프레임 연결/병합을 통해 데이터 가공하기](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Merge_Concat.ipynb)
+- [<b>Pandas 라이브러리 데이터 가공</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Data_Processing.ipynb)
+  - Series로 feature를 보다 상세하게 탐색
+    > Series객체.size             : series의 size 반환
+    > Series객체.count()          : 데이터가 없는 경우를 뺸 사이즈 반환
+    > Series객체.unique()         : 유일한 값만 반환
+    > Series객체.value_counts()   : 데이터가 없는 경우를 제외하고, 각 값의 갯수를 반환
+  - 결측치(NaN) 데이터 확인
+    > isnull() : 없는 데이터가 있는지 확인 (반환값은 bool형식으로 출력)
+    > sum() : isnull은 단지 T/F값만 반환하므로, 결측치의 총 결산을 확인하기 위해 사용
+    > 따라서, isnull().sum()을 통상적으로 사용
+  - 결측치(NaN) 데이터 삭제
+    > dropna() : 모든 컬럼의 결측치를 가진 '행'을 모두 삭제
+    > dropna(subset=[특정컬럼]) : 특정 컬럼의 결측치를 가진 행을 모두 삭제
+  - 결측치(NaN) 데이터를 특정값으로 일괄 변경
+    > fillna(특정값)
+    > fillna( {'컬럼명' : '특정값',... } )
+  - 특정 키 값을 기준으로 데이터 합치기
+    > groupby().sum()
+  - 특정 컬럼의 타입 변경
+    > astype(  {'컬럼명' : '특정값',... } )
+  - Dataframe에서 중복 행 확인/제거 하기
+    >duplicated() : 중복 행 확인 함수
+    >drop_duplicates() : 중복 행 삭제
+    > - drop_duplicates(subset = '특정컬럼') : 특정 컬럼 기준으로 중복 행 제거
+    > - 중복된 경우, 처음과 마지막행 중 어느 행을 남길 것인지 결정하는 방법
+    >   - keep = 'first' (디폴트 값)
+    >   - keep = 'last'
+- [<b>데이터프레임 연결/병합을 통해 데이터 가공하기</b>](https://github.com/jhryu1208/Python_DataAnalysis_Pandas/blob/master/Pandas/Pandas_Merge_Concat.ipynb)
+  - 두 Dataframe 연결
+    >pd.concat( [데이터프레임1,데이터프레임2], axis = )
+    > - 두 데이터프레임을 (위/아래) 혹은 (왼쪽/오른쪽)으로 연결
+    > - axis : 0(디폴트)이면 위에서 아래로 합치고, 1이면 왼쪽에서 오른쪽으로 합친다.
+  - 두 Dataframe 병합
+    > pd.merge(데이터프레임1, 데이터프레임2, on = 기준컬럼명, how = 결합방법)
+    > - how 옵션 : inner / outer / left / right
 
 ## [ COVID-19 현황 분석 및 시각화]
 
